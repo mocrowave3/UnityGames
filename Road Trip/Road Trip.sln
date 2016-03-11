@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{5587192B-1A98-B204-C30C-568C7E0C1DAB}") = "Road Trip", "Assembly-CSharp.csproj", "{CEFB1825-ABFA-5619-A9EB-0B7EDE953213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFB1825-ABFA-5619-A9EB-0B7EDE953213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFB1825-ABFA-5619-A9EB-0B7EDE953213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFB1825-ABFA-5619-A9EB-0B7EDE953213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFB1825-ABFA-5619-A9EB-0B7EDE953213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
