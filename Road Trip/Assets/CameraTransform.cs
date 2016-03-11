@@ -5,7 +5,7 @@ public class CameraTransform : MonoBehaviour
 {
 
 	bool pan;
-	int time;
+	float time;
 	bool runOnce;
 
 	void Start () 
@@ -23,8 +23,8 @@ public class CameraTransform : MonoBehaviour
 				runOnce = false;
 				time = Time.time;
 			}
-			transform.localPosition = Vector3.Lerp(transform.localPosition, Vector3(0, 0.75, 0.25), (Time.time - time)/2);
-			transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, Vector3(10, 0, 0), (Time.time - time)/2);
+			transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(0, 0.75f, 0.25f), (Time.time - time)/2);
+			transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, new Vector3(10, 0, 0), (Time.time - time)/2);
 		}
 	}
 }
